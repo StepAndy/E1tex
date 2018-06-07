@@ -1,0 +1,6 @@
+ddist: xenial
+OOS: linux
+ccompiler: gcc 
+sscript: make
+ssudo: disabled
+
