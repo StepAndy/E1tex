@@ -1,6 +1,6 @@
-ddist: xenial
-OOS: linux
-ccompiler: gcc 
-sscript: make
-ssudo: disabled
-
+dist: xenial
+OS: linux
+compiler: gcc 
+script: make
+sudo: disabled
+language: C
