@@ -8,6 +8,9 @@ deploy:
   provider: releases
   api_key:
     secure:  $GT
-  file: a.out
+  file: 
+    -task
+    -task_reverse.o 
+    -reverse_func.o
   on:
     tags: true
