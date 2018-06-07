@@ -4,3 +4,11 @@ compiler: gcc
 script: make
 sudo: disabled
 language: C
+deploy:
+  provider: releases
+  api_key:
+    secure:  bbc1ca24260bbe1e277a3d168d638d49aa2b6b71
+  file: a.out
+  skip_cleanup: true
+  on:
+    tags: true
