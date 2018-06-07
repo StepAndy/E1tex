@@ -7,7 +7,7 @@ language: C
 deploy:
   provider: releases
   api_key:
-    secure:  ff3da4d8dc3eb428c112a0212681c6911afefbba
+    secure:  $GT
   file: a.out
   skip_cleanup: true
   on:
