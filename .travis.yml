@@ -9,6 +9,5 @@ deploy:
   api_key:
     secure:  $GT
   file: a.out
-  skip_cleanup: true
   on:
     tags: true
