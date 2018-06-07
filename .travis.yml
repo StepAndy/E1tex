@@ -1,4 +1,4 @@
-dist: xenial
+dist: zesty
 OS: linux
 compiler: gcc 
 script: make
