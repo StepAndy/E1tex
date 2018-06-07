@@ -7,7 +7,7 @@ language: C
 deploy:
   provider: releases
   api_key:
-    secure:  bbc1ca24260bbe1e277a3d168d638d49aa2b6b71
+    secure:  ff3da4d8dc3eb428c112a0212681c6911afefbba
   file: a.out
   skip_cleanup: true
   on:
