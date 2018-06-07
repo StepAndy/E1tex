@@ -2,8 +2,8 @@ dist: zesty
 OS: linux
 compiler: gcc 
 script: 
-    -make all
-    -make reverse_func
+    - make all
+    - make reverse_func
 sudo: disabled
 language: C
 deploy:
@@ -11,8 +11,9 @@ deploy:
   api_key:
     secure:  $GT
   file: 
-    -task
-    -task_reverse.o 
-    -reverse_func.o
+    - task
+    - task_reverse.o 
+    - reverse_func.o
+  skip_cleanup: true
   on:
     tags: true
