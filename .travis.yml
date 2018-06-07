@@ -1,7 +1,9 @@
 dist: zesty
 OS: linux
 compiler: gcc 
-script: make
+script: 
+    -make all
+    -make reverse_func
 sudo: disabled
 language: C
 deploy:
